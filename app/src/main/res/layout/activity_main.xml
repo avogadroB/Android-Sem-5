@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0EABA6"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/perryhat" />
+
+        <TextView
+            android:id="@+id/Calc"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:text="Calculator"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+
+        <TextView
+            android:id="@+id/num1ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number 1" />
+
+
+        <EditText
+            android:id="@+id/TextNum1"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            tools:text="Enter Number" />
+
+
+        <TextView
+            android:id="@+id/num2ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number 2" />
+
+
+        <EditText
+            android:id="@+id/TextNum2"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            tools:text="Enter Number" />
+        23/>
+
+
+        <Button
+            android:id="@+id/Addbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:text="Add" />
+
+
+        <TextView
+            android:id="@+id/ansText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
